@@ -43,20 +43,3 @@ nav a {
     color: beige; /* foreground color for the navigation links */
     font-weight: bold;
 }
-
-/* to help with mobile-friendliness */
-/* @media only screen and (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        background-color: green;
-        display: none; 
-    }
-    nav.show {
-        display: flex;
-    }
-    nav li {
-        margin: 10px 0;
-    } */
-/* } */
