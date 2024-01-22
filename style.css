@@ -47,14 +47,11 @@ nav a {
 /* to help with mobile-friendliness */
 @media only screen and (max-width: 600px) {
     nav {
-        display: none;
         flex-direction: column;
         align-items: center;
         width: 100%;
-        position: absolute;
-        top: 60px;
-        left: 0;
         background-color: green; /* background color for mobile navigation */
+        display: none; 
     }
     nav.show {
         display: flex;
